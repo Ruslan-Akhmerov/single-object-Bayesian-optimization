@@ -1,6 +1,6 @@
 # Hubbard Parameter Optimizer
 
-A Python package for automated optimization of Hubbard U parameters in Quantum ESPRESSO calculations using Bayesian optimization.
+A collection of Python scripts for automated optimization of Hubbard U parameters in Quantum ESPRESSO calculations using Bayesian optimization.
 
 ## Description
 
@@ -19,8 +19,14 @@ This tool automatically finds the optimal Hubbard U parameter that reproduces ex
 - **Visualization** of optimization progress
 - **Error handling** and recovery mechanisms
 
-## Quick Start
+## Requirements
 
-1. Install dependencies:
+### System Requirements
+- Python 3.7 or higher
+- Quantum ESPRESSO (6.5 or later recommended) with `pw.x` and `bands.x` executables in PATH
+
+### Python Dependencies
 ```bash
-pip install numpy scipy matplotlib
+numpy
+scipy
+matplotlib
