@@ -17,7 +17,6 @@ This tool automatically finds the optimal Hubbard U parameter that reproduces ex
 - **Automated workflow** for Quantum ESPRESSO calculations
 - **Comprehensive logging** of all iterations
 - **Visualization** of optimization progress
-- **Error handling** and recovery mechanisms
 
 ## Requirements
 
@@ -30,3 +29,10 @@ This tool automatically finds the optimal Hubbard U parameter that reproduces ex
 numpy
 scipy
 matplotlib
+```
+
+## Installation
+
+### №1 Clone from GitHub
+- git clone https://github.com/Ruslan-Akhmerov/single-object-Bayesian-optimization.git
+- cd Optz
